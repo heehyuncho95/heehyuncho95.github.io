@@ -260,6 +260,7 @@
                     <div class="single_image">
                         <img src="images/keil.jpg" alt="">
                         <div class="image_overlay">
+                            <a data-toggle = "modal" data-target="#keil">View Project Description</a>
                             <h2>Keil</h2>
                             <h4>RTOS</h4>
                         </div>
@@ -269,6 +270,7 @@
                     <div class="single_image">
                         <img src="images/pcb.jpg" alt="">
                         <div class="image_overlay">
+                            <a data-toggle = "modal" data-target="#pcb">View Project Description</a>
                             <h2>PCB</h2>
                             <h4>Sensors and Instrumentation</h4>
                         </div>                        
@@ -278,6 +280,7 @@
                     <div class="single_image">
                         <img src="images/caliper.jpg" alt="">
                         <div class="image_overlay">
+                            <a data-toggle = "modal" data-target="#arduino">View Project Description</a>
                             <h2>Arduino Caliper</h2>
                             <h4>Design and Implementation</h4>
                         </div>                        
@@ -289,6 +292,7 @@
                     <div class="single_image">
                         <img src="images/davinci.jpg" alt="">
                         <div class="image_overlay">
+                            <a data-toggle = "modal" data-target="#davinci">View Project Description</a>
                             <h2>Davinci</h2>
                             <h4>Lego NXT Printer</h4>
                         </div>                        
@@ -298,6 +302,7 @@
                     <div class="single_image">
                         <img src="images/psca.jpg" alt="">
                         <div class="image_overlay">
+                            <a data-toggle = "modal" data-target="#bio">View Project Description</a>
                             <h2>Biomechanical Research</h2>
                             <h4>PSCA Study</h4>
                         </div>                        
@@ -307,6 +312,7 @@
                     <div class="single_image last_padding">
                         <img src="images/rockies.jpg" alt="">
                         <div class="image_overlay">
+                            <a data-toggle = "modal" data-target="#photog">View Interest Description</a>
                             <h2>Photography</h2>
                             <h4>Enthusiast: Rockies</h4>
                         </div>                        
@@ -315,6 +321,125 @@
             </div>           
         </div>
     </section>
+    
+    <!-- Modals -->
+    <div id="keil" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Keil</h4>
+          </div>
+          <div class="modal-body">
+            <p> To better understand real time sytems, I programmed Keil board using Keil uVision4 IDE. Data structures such as binary search tree and linked lists were implemented in C.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>  
+    <div id="pcb" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">PCB Design</h4>
+          </div>
+          <div class="modal-body">
+            <p>I gained soldering experience through designing a PCB architecture for a small robot. I examined and calculated for appropriate electrical components to be included in the circuit.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div id="arduino" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Arduino Caliper</h4>
+          </div>
+          <div class="modal-body">
+            <p> A caliper-like instrument was developed to measure the dimensions of the Lego blocks. The 28BYJ-48 stepper motor was used as the sensor and the signal modification system were the rack and pinion gears that converted the rotary movement of the motor into a linear movement system. This allowed the heads of the caliper to tightly fit the blocks in between to be measured. Finally, for the recorder and indicator, the dimensions of the blocks were determined by using the code implemented in Arduino and was displayed on a computer monitor.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div id="davinci" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Davinci Printer and Scanner</h4>
+          </div>
+          <div class="modal-body">
+            <p>Davinci Printer and Scanner was created using the Lego Mindstorms Kit to perform the functions of a multifunctional printer with the concept of Neo Pointillism. The device was created to showcase how a group of dots could be brought together to create artwork. This technique also allowed viewers to use their eyes to connect the dots and formulate a picture in their mind. The device was able to print text and images, scan simple images to a file viewable on a computer and photocopy simple images, all through the use of dots.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div id="bio" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Keil</h4>
+          </div>
+          <div class="modal-body">
+            <p>Since the first year of university, I actively participated in biomechanic researches: finding the elastic modulus of agarose and exploring the effect of different porous surfaced cobalt-based alloys (PSCA) on static friction between trabecular bones. I participated in <strong> International Conference of Biotribology 2014 </strong> and am listed as a co-author of abstract presented in <strong> International Tri-bology Conference Tokyo </strong>. Exploring new ideas and conducting experiments to illustrate new solutions to a problem is thrilling and priceless experience. </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div id="photog" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Photography</h4>
+          </div>
+          <div class="modal-body">
+            <p>I love travelling and taking pictures of the majestic sceneries. I enjoy looking into different camera designs and learning new photography techniques. 
+My Photos capture the moment and contain memories. I describe a good photo as the one picture that can tell the whole story.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+    
     <section class="call_to_action">
     </section>
     <section class="contact" id="CONTACT">
